@@ -10,3 +10,6 @@ api_articles:
 logout:
     path: /logout
 
+index:
+    path:     /index
+    defaults: { _controller: AppBundle:Default:index }        
