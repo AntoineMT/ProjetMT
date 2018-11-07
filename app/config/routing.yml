@@ -11,5 +11,10 @@ logout:
     path: /logout
 
 index:
-    path:     /index
+    path:     /
     defaults: { _controller: AppBundle:Default:index }        
+      
+
+listeuser:
+    path:     /listeuser
+    defaults: { _controller: AppBundle:ListeUser:listeUser }        
